@@ -1,0 +1,143 @@
+
+--- acpidump ---
+
+
+--- iasl -d apic.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [APIC] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/apic.dsl - 16370 bytes
+
+
+--- iasl -d bgrt.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [BGRT] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/bgrt.dsl - 1660 bytes
+
+
+--- iasl -d csrt.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [CSRT] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/csrt.dsl - 400043 bytes
+
+
+--- iasl -d dbg2.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [DBG2] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/dbg2.dsl - 18604 bytes
+
+
+--- iasl -d dsdt.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Disassembly completed
+ASL Output:    C:/NP545XLA-main/NP545XLA-hw-dump/dsdt.dsl - 4005160 bytes
+
+
+--- iasl -d facp.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [FACP] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/facp.dsl - 10513 bytes
+
+
+--- iasl -d fpdt.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [FPDT] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/fpdt.dsl - 1863 bytes
+
+
+--- iasl -d gtdt.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [GTDT] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/gtdt.dsl - 4271 bytes
+
+
+--- iasl -d iort.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [IORT] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/iort.dsl - 140350 bytes
+
+
+--- iasl -d mcfg.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [MCFG] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/mcfg.dsl - 2657 bytes
+
+
+--- iasl -d msdm.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [MSDM] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/msdm.dsl - 1852 bytes
+
+
+--- iasl -d pptt.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [PPTT] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/pptt.dsl - 14905 bytes
+
+
+--- iasl -d tpm2.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [TPM2] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/tpm2.dsl - 1581 bytes
+
+
+--- iasl -d xsdt.dat ---
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Acpi Data Table [XSDT] decoded
+Formatted output:  C:/NP545XLA-main/NP545XLA-hw-dump/xsdt.dsl - 2420 bytes
+
