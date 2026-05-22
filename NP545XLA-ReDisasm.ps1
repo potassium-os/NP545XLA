@@ -163,7 +163,7 @@ while ($i -lt $lines.Count) {
     
     # Track Device scope
     if ($line -match '^\s*(Device|Scope)\s*\(\s*(\S+)\s*\)') {
-        $deviceStack.Push $Matches[2]
+        $deviceStack.Push($Matches[2])
     }
     
     # Find _HID for context
@@ -286,7 +286,8 @@ function Decode-ResourceBuffer {
                             0x03 { "no-pull" }
                             default { "0x$([Convert]::ToString($pinConfig, 16))" }
                         }
-                        [void]$sb.AppendLine("  $typeStr: pins=$($pins -join ','), $pullStr, debounce=${debounce}us, controller=$src")
+                        $pinList = $pins -join ','
+                        [void]$sb.AppendLine("  ${typeStr}: pins=${pinList}, ${pullStr}, debounce=${debounce}us, controller=${src}")
                     }
                 }
                 0x09 { # Interrupt (0x89) — extended format
@@ -376,6 +377,6 @@ Write-Host "`n[*] Done! Files in $outputDir" -ForegroundColor Cyan
 Write-Host "    - redisasm/dsdt.dsl  (re-disassembled with -e flag)" -ForegroundColor White
 Write-Host "    - crs-decoded.txt    (manually decoded _CRS buffers)" -ForegroundColor White
 Write-Host ""
-Write-Host "Check redisasm/dsdt.dsl first — if iasl -e decoded the resources," -ForegroundColor Yellow
-Write-Host "you'll see I2CSerialBus(), GpioInt() etc. instead of raw hex." -ForegroundColor Yellow
-Write-Host "crs-decoded.txt is the fallback manual decode of the raw buffers." -ForegroundColor Yellow
+Write-Host 'Check redisasm/dsdt.dsl first - if iasl -e decoded the resources,' -ForegroundColor Yellow
+Write-Host 'You will see I2CSerialBus(), GpioInt() etc. instead of raw hex.' -ForegroundColor Yellow
+Write-Host 'crs-decoded.txt is the fallback manual decode of the raw buffers.' -ForegroundColor Yellow
