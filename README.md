@@ -45,8 +45,6 @@ SC8180XP is the only 8cx generation without mainline kernel support. It was expl
 │   ├── NP545XLA-hw-dump/  ← raw ACPI table dumps and disassembly
 │   ├── decode-crs.py      ← CRS resource decoder
 │   └── ...                ← PowerShell dump scripts (run on Windows)
-└── src/
-    └── ubuntu-26.04-desktop-arm64.iso  ← Ubuntu arm64 ISO (for initrd fallback)
 ```
 
 ## Hardware
