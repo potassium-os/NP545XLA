@@ -1,0 +1,8 @@
+# Build output
+build/
+
+# DTS intermediate files
+dts/*.dts.pre
+
+# ISO images (too large for git)
+src/*.iso

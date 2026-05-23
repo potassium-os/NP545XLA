@@ -1,2 +1,0 @@
-ACPI Device Path -> Hardware ID mapping
-

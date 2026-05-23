@@ -1,2 +1,0 @@
-Full device enumeration with hardware IDs
-
